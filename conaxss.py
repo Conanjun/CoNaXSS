@@ -118,7 +118,7 @@ class ConaXSS(object):
 								print(Style.BRIGHT + Fore.RED + "\n[!]" + " XSS Vulnerability Found! \n" + Fore.RED + Style.BRIGHT + "[!]" + " Parameter:\t%s\n" + Fore.RED + Style.BRIGHT + "[!]" + " Payload:\t%s\n" + Style.RESET_ALL) % (
 										 pn, x)
 								total = total + 1
-								vul_url_and_payload.append((pn, x))
+								vul_url_and_payload.append((path,pn, x))
 								break
 							else:
 								pass
@@ -172,6 +172,8 @@ class ConaXSS(object):
 						total = 0
 						pname1 = []  # parameter name
 						payload1 = []
+
+						vul_url_and_payload=[]
 						for pn, pv in zip(paraname, paravalue):  # Scanning the parameter.
 							print(grey + "[+] Testing '" + pn + "' parameter..." + Style.RESET_ALL)
 							for i in self.payloadlist:
@@ -201,10 +203,12 @@ class ConaXSS(object):
 												 Style.BRIGHT + Fore.RED + "\n[!]" + " XSS Vulnerability Found! \n" + Fore.RED + Style.BRIGHT + "[!]" + " Parameter:\t%s\n" + Fore.RED + Style.BRIGHT + "[!]" + " Payload:\t%s\n" + Style.RESET_ALL) % (
 												 pn, i)
 										total = total + 1
+										vul_url_and_payload.append((path,pn,i))
 										break
 							if total == 0:
 								print(
 										 Style.BRIGHT + Fore.GREEN + "\n[+]" + Style.RESET_ALL + Style.DIM + Fore.WHITE + " '%s' parameter not vulnerable." + Style.RESET_ALL) % pn
+						return vul_url_and_payload
 					except(httplib.HTTPResponse, socket.error) as Exit:
 						print(Style.BRIGHT + Fore.RED + "[!] Site " + " is offline!" + Style.RESET_ALL)
 				except(KeyboardInterrupt) as Exit:
