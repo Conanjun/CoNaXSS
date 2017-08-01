@@ -1,0 +1,42 @@
+
+======================================================
+15:15:21  http://127.0.0.1:80
+======================================================
+GET /dvwa/vulnerabilities/sqli/ HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1/dvwa/vulnerabilities/sqli_blind/?id=2&Submit=Submit
+Cookie: security=low; APFk_2132_saltkey=Wmlnl9rU; APFk_2132_lastvisit=1500045769; APFk_2132_visitedfid=2; APFk_2132_ulastactivity=aab9illAQeMrJCXTtESDlA3uBYf86HW%2BeK8pamwamGw17cW1TrIv; APFk_2132_lastcheckfeed=1%7C1500049406; APFk_2132_smile=1D1; APFk_2132_editormode_e=1; APFk_2132_nofavfid=1; PHPSESSID=bdc2d1qf4ssesavvamubrm66u5
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+
+======================================================
+
+
+
+
+
+======================================================
+15:15:25  http://127.0.0.1:80
+======================================================
+GET /dvwa/vulnerabilities/sqli/?id=asfd&Submit=Submit HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1/dvwa/vulnerabilities/sqli/
+Cookie: security=low; APFk_2132_saltkey=Wmlnl9rU; APFk_2132_lastvisit=1500045769; APFk_2132_visitedfid=2; APFk_2132_ulastactivity=aab9illAQeMrJCXTtESDlA3uBYf86HW%2BeK8pamwamGw17cW1TrIv; APFk_2132_lastcheckfeed=1%7C1500049406; APFk_2132_smile=1D1; APFk_2132_editormode_e=1; APFk_2132_nofavfid=1; PHPSESSID=bdc2d1qf4ssesavvamubrm66u5
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+
+======================================================
+
+
+
+

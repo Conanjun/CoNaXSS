@@ -1,0 +1,136 @@
+======================================================
+15:15:21  http://127.0.0.1:80
+======================================================
+GET /dvwa/vulnerabilities/sqli/ HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1/dvwa/vulnerabilities/sqli_blind/?id=2&Submit=Submit
+Cookie: security=low; APFk_2132_saltkey=Wmlnl9rU; APFk_2132_lastvisit=1500045769; APFk_2132_visitedfid=2; APFk_2132_ulastactivity=aab9illAQeMrJCXTtESDlA3uBYf86HW%2BeK8pamwamGw17cW1TrIv; APFk_2132_lastcheckfeed=1%7C1500049406; APFk_2132_smile=1D1; APFk_2132_editormode_e=1; APFk_2132_nofavfid=1; PHPSESSID=bdc2d1qf4ssesavvamubrm66u5
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+
+======================================================
+
+
+
+======================================================
+15:15:22  http://127.0.0.1:80
+======================================================
+GET /dvwa/vulnerabilities/sqli/ HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1/dvwa/vulnerabilities/sqli_blind/?id=2&Submit=Submit
+Cookie: security=low; APFk_2132_saltkey=Wmlnl9rU; APFk_2132_lastvisit=1500045769; APFk_2132_visitedfid=2; APFk_2132_ulastactivity=aab9illAQeMrJCXTtESDlA3uBYf86HW%2BeK8pamwamGw17cW1TrIv; APFk_2132_lastcheckfeed=1%7C1500049406; APFk_2132_smile=1D1; APFk_2132_editormode_e=1; APFk_2132_nofavfid=1; PHPSESSID=bdc2d1qf4ssesavvamubrm66u5
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+
+======================================================
+
+
+
+======================================================
+15:15:25  http://127.0.0.1:80
+======================================================
+GET /dvwa/vulnerabilities/sqli/?id=asfd&Submit=Submit HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1/dvwa/vulnerabilities/sqli/
+Cookie: security=low; APFk_2132_saltkey=Wmlnl9rU; APFk_2132_lastvisit=1500045769; APFk_2132_visitedfid=2; APFk_2132_ulastactivity=aab9illAQeMrJCXTtESDlA3uBYf86HW%2BeK8pamwamGw17cW1TrIv; APFk_2132_lastcheckfeed=1%7C1500049406; APFk_2132_smile=1D1; APFk_2132_editormode_e=1; APFk_2132_nofavfid=1; PHPSESSID=bdc2d1qf4ssesavvamubrm66u5
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+
+======================================================
+
+
+
+======================================================
+15:16:11  http://note.wiz.cn:80  [42.120.60.81]
+======================================================
+POST /api/keepalive HTTP/1.1
+Host: note.wiz.cn
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 114
+Cookie: Hm_lvt_df6808d18fab4a1dfa7454a064069692=1495359328,1495359656,1495768978,1495798817
+Connection: close
+
+client_type=webclip_firefox&api_version=3&program_type=normal&token=ecf8c80dc08b1655951f7a82cf94b2b9shh3wr4e42astp
+======================================================
+
+
+
+======================================================
+15:17:45  https://download.api.bsb.baidu.com:443  [111.206.223.88]
+======================================================
+POST /downloads?ver=2.2&key=ffD7Y9anV5dZVp8 HTTP/1.1
+Host: download.api.bsb.baidu.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Content-Length: 170
+Content-Type: text/plain
+Connection: close
+Pragma: no-cache
+Cache-Control: no-cache
+
+baidu-malware-shavar;a:1-105:s:1-105
+baidu-phish-shavar;a:1-105:s:1-5,7-8,10-14,16-19,22-26,28-33,35,37-45,47-50,52-54,56-60,63-64,66,68-69,72-73,78-79,81-84,86-87,89-94
+
+======================================================
+
+
+
+======================================================
+15:20:11  http://note.wiz.cn:80  [42.120.60.81]
+======================================================
+POST /api/keepalive HTTP/1.1
+Host: note.wiz.cn
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 114
+Cookie: Hm_lvt_df6808d18fab4a1dfa7454a064069692=1495359328,1495359656,1495768978,1495798817
+Connection: close
+
+client_type=webclip_firefox&api_version=3&program_type=normal&token=ecf8c80dc08b1655951f7a82cf94b2b9shh3wr4e42astp
+======================================================
+
+
+
+======================================================
+15:24:11  http://note.wiz.cn:80  [42.120.60.81]
+======================================================
+POST /api/keepalive HTTP/1.1
+Host: note.wiz.cn
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 114
+Cookie: Hm_lvt_df6808d18fab4a1dfa7454a064069692=1495359328,1495359656,1495768978,1495798817
+Connection: close
+
+client_type=webclip_firefox&api_version=3&program_type=normal&token=ecf8c80dc08b1655951f7a82cf94b2b9shh3wr4e42astp
+======================================================
+
+
+
